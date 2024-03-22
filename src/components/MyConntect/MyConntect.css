@@ -1,0 +1,39 @@
+.myConnect{
+    margin-bottom: 50px;
+}
+.card-myconnect-sty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px 1% !important;
+}
+.card-myconnect-icon {
+    box-sizing: content-box;
+    color: var(--blue-color);
+    text-align: center;
+    font-size:22px ;
+    padding: 18px;
+    border-radius: 50%;
+    background-color:  var(--gray-secondly-color);
+}
+.card-nyconect-body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-nyconect-body h3{
+    font-size: 20px;
+}
+.card-nyconect-body h4,.card-nyconect-body h4 a{
+    color: var( --gray-color);
+    font-size: 10px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    padding: 10px !important;
+}

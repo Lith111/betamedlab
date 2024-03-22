@@ -1,0 +1,26 @@
+.nav-style{
+    max-height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    gap: 10px ;
+}
+.nav-style .nav-link {
+    font-size: 20px;
+    width: max-content ;
+}
+@media (min-width:990px) {
+    .nav-style{
+    margin: 0 20px;
+    }
+
+}
+@media (max-width:990px) {
+    .nav-style{
+        width: 100%;
+        align-items: flex-start;
+        /* font-size: 80%; */
+    }
+
+}

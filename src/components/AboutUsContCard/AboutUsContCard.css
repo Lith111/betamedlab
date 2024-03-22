@@ -1,0 +1,39 @@
+.contCard{
+    max-width:500px ;
+    filter: brightness(0.6);
+    position: relative;
+    }
+.contCard::before{
+    content: " ";
+    position: absolute;
+    width: 40%;
+    top: -50%;
+    transform: translateY( 33%);
+    z-index: -1;
+    height: 120% ;
+    background-color: var(--blue-color);
+}
+.left::before {
+    left:-17%;
+}
+.right::before {
+    right: -17%;
+}
+.img-aboutUS{
+    width: 400px;
+    height: 600px;
+}
+@media (max-width:1000px) {
+    .img-aboutUS{
+        max-width: 201px;
+        height: 300px;
+    }
+    
+}
+@media (max-width:1000px) {
+    .img-aboutUS{
+        max-width: 200px;
+        height: 300px;
+    }
+    
+}

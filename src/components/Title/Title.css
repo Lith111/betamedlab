@@ -1,0 +1,9 @@
+.title{
+    text-align: center;
+    margin: 30px 0;
+}
+.title h2 {
+    font-size: 35px;
+    font-weight: 300;
+    padding: 10px 0;
+}

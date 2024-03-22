@@ -1,0 +1,62 @@
+.ourAnlytics{
+    margin: 60px 0;
+}
+.col-midca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+}
+.row-medical{
+    margin-top: 25px;
+}
+.sty-but{
+    width: 18rem;
+    margin: 25px auto;
+}
+.control-server{
+    position: relative;
+    top: 0;
+    overflow: hidden;
+
+    left: 0;
+}
+.control{
+    display: none;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    transform: translate(-10px,-50%);
+    background-color: white;
+    z-index: 10;
+    opacity: .9;
+    border: none;
+    outline: none;
+    border-radius: 100%;
+    }
+    .control svg{
+       margin-bottom: 4px;
+    }
+.left {
+    left: 10px;
+}
+.right {
+    right: 10px;
+}
+ @media (max-width: 776px ) { 
+    .row-medical  {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap !important;
+        padding: 0px 50px;
+        justify-content: center;
+        align-items:center ;
+        position: relative;
+    }
+    .control{
+        display: block;
+    }
+
+ } 
